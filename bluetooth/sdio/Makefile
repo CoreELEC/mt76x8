@@ -1,4 +1,4 @@
-export KBUILD_VERBOSE=1
+export KBUILD_VERBOSE=0
 #export KERNEL_SRC := /lib/modules/$(shell uname -r)/build
 
 ###############################################################################
