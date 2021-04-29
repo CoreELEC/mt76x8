@@ -538,3 +538,6 @@ PREALLOC_OBJS := prealloc/prealloc.o
 $(MODULE_NAME_PREALLOC)-objs += $(PREALLOC_OBJS)
 obj-m += $(MODULE_NAME_PREALLOC).o
 endif
+
+all:
+	make -C $(LINUX_SRC) M=$(shell pwd) modules
