@@ -216,7 +216,7 @@ static const struct btmtk_sdio_card_reg btmtk_reg_7666 = {
 };
 
 static const struct btmtk_sdio_device btmtk_sdio_6630 = {
-	.helper		= "mtmk/sd8688_helper.bin",
+	.helper		= "mrvl/sd8688_helper.bin",
 	.firmware	= "mt6632_patch_e1_hdr.bin",
 	.reg		= &btmtk_reg_6630,
 	.support_pscan_win_report = false,
@@ -225,7 +225,7 @@ static const struct btmtk_sdio_device btmtk_sdio_6630 = {
 };
 
 static const struct btmtk_sdio_device btmtk_sdio_6632 = {
-	.helper     = "mtmk/sd8688_helper.bin",
+	.helper     = "mrvl/sd8688_helper.bin",
 	.firmware   = "mt6632_patch_e1_hdr.bin",
 	.reg        = &btmtk_reg_6632,
 	.support_pscan_win_report = false,
@@ -234,7 +234,7 @@ static const struct btmtk_sdio_device btmtk_sdio_6632 = {
 };
 
 static const struct btmtk_sdio_device btmtk_sdio_7668 = {
-	.helper		= "mtmk/sd8688_helper.bin",
+	.helper		= "mrvl/sd8688_helper.bin",
 #if CFG_THREE_IN_ONE_FIRMWARE
 	.firmware	= "MT7668_FW",
 #else
@@ -248,7 +248,7 @@ static const struct btmtk_sdio_device btmtk_sdio_7668 = {
 };
 
 static const struct btmtk_sdio_device btmtk_sdio_7663 = {
-	.helper         = "mtmk/sd8688_helper.bin",
+	.helper         = "mrvl/sd8688_helper.bin",
 	.firmware       = "mt7663_patch_e1_hdr.bin",
 	.firmware1      = "mt7663_patch_e2_hdr.bin",
 	.reg            = &btmtk_reg_7663,
@@ -258,7 +258,7 @@ static const struct btmtk_sdio_device btmtk_sdio_7663 = {
 };
 
 static const struct btmtk_sdio_device btmtk_sdio_7666 = {
-	.helper		= "mtmk/sd8688_helper.bin",
+	.helper		= "mrvl/sd8688_helper.bin",
 	.firmware	= "mt7668_patch_e1_hdr.bin",
 	.reg		= &btmtk_reg_7666,
 	.support_pscan_win_report = false,
